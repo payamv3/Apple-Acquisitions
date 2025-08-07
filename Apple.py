@@ -71,5 +71,15 @@ text = alt.Chart(source.reset_index()).mark_text(
     )
 )
 
+chart = alt.layer(bars, text).properties(
+    title='Apple Acquisitions Through Time',
+    width=1000,
+    height=400
+)
 
-st.altair_chart((bars + text).configure_view(stroke = 'transparent', strokeOpacity = 0), use_container_width = True)
+st.altair_chart(
+    chart.configure_view(stroke='transparent', strokeOpacity=0),
+    use_container_width=True
+)
+
+#st.altair_chart((bars + text).configure_view(stroke = 'transparent', strokeOpacity = 0), use_container_width = True)
