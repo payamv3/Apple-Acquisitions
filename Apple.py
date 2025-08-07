@@ -25,9 +25,22 @@ source = df.groupby('Year').count()[['Company']]
     #st.markdown("""With the increasing pace of technological advancement, Apple seems to have increased the number of companies it acquires every year. The difference in approach is more evident when you break down Apple's history into two eras. Tim Cook and his mastery of a global suuply chains has seen the need to acquire more start ups along the way in order to remain competitive in a fiercely saturating marketing.""")
 
 st.sidebar.header("Apple Acquisitions through the years")
+st.sidebar.markdown("""
+This visualization tracks Apple's corporate acquisitions over time, 
+revealing distinct patterns between the <span style='color: grey; font-weight: bold;'>Steve Jobs era</span> (shown in gray) 
+and the <span style='color: steelblue; font-weight: bold;'>Tim Cook era</span> (shown in blue). The data shows a marked increase 
+in acquisition activity under Cook's leadership, reflecting Apple's 
+evolving strategy in a rapidly changing tech landscape.
+""", unsafe_allow_html=True)
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Data Source:**")
+st.sidebar.markdown("[Wikipedia - List of mergers and acquisitions by Apple](https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple)")
+st.sidebar.markdown("---")
+st.sidebar.markdown("*A Small Project by Payam Saeedi*")
+#st.sidebar.header("Apple Acquisitions through the years")
 #st.sidebar.markdown("""A look at Apple Acquisitions through Steve and Tim's tenures""")
-st.sidebar.markdown("""A look at Apple Acquisitions through **<span style='color:grey'>Steve</span>** and **<span style='color:steelblue'>Tim</span>**'s tenures""", unsafe_allow_html=True)
-st.sidebar.markdown("""A Small Project by Payam Saeedi""")
+#st.sidebar.markdown("""A look at Apple Acquisitions through **<span style='color:grey'>Steve</span>** and **<span style='color:steelblue'>Tim</span>**'s tenures""", unsafe_allow_html=True)
+#st.sidebar.markdown("""A Small Project by Payam Saeedi""")
 #st.title('Apple\'s Acquisitions through the years')
 #st.dataframe(df)
 #st.markdown("""With the increasing pace of technological advancement, Apple seems to have increased the number of companies it acquires every year. The difference in approach is more evident when you break down Apple's history into two eras. Tim Cook and his mastery of a global suuply chains has seen the need to acquire more start ups along the way in order to remain competitive in a fiercely saturating marketing.""")
