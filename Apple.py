@@ -48,38 +48,11 @@ bars = alt.Chart(source.reset_index()).mark_bar(cornerRadiusTopLeft=3,
 ).properties(title = 'Apple Acquisitions Through Time', width = 1200, height = 400)
 
 
-#text = bars.mark_text(
-#    align='center',
-#    baseline='middle' , dy = -6
-#).encode(
-#    text='Company:Q'
-#)
-
-text = alt.Chart(source.reset_index()).mark_text(
+text = bars.mark_text(
     align='center',
-    baseline='middle',
-    dy=-6
+    baseline='middle' , dy = -6
 ).encode(
-    alt.X('Year:O'),
-    alt.Y('Company:Q'),
-    text='Company:Q',
-    # Apply the same color condition to the text
-    color=alt.condition(
-        alt.datum.Year > 2011,
-        alt.value('steelblue'),
-        alt.value('grey')
-    )
+    text='Company:Q'
 )
 
-chart = alt.layer(bars, text).properties(
-    title='Apple Acquisitions Through Time',
-    width=1000,
-    height=400
-)
-
-st.altair_chart(
-    chart.configure_view(stroke='transparent', strokeOpacity=0),
-    use_container_width=True
-)
-
-#st.altair_chart((bars + text).configure_view(stroke = 'transparent', strokeOpacity = 0), use_container_width = True)
+st.altair_chart((bars + text).configure_view(stroke = 'transparent', strokeOpacity = 0), use_container_width = True)
