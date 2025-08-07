@@ -49,10 +49,23 @@ bars = alt.Chart(source.reset_index()).mark_bar(cornerRadiusTopLeft=3,
 
 text = bars.mark_text(
     align='center',
-    baseline='middle' , dy = -6
+    baseline='middle' , dy = -6,
+    # Add color encoding for the year labels to match the bars
+    color=alt.condition(
+        alt.datum.Year > 2011,
+        alt.value('steelblue'),  # Tim Cook era years - blue text
+        alt.value('grey')        # Steve Jobs era years - grey text
+    )
 ).encode(
     text='Company:Q'
 )
+
+#text = bars.mark_text(
+#    align='center',
+#    baseline='middle' , dy = -6
+#).encode(
+#    text='Company:Q'
+#)
 
 
 st.altair_chart((bars + text).configure_view(stroke = 'transparent', strokeOpacity = 0), use_container_width = True)
