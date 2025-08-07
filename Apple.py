@@ -25,7 +25,8 @@ source = df.groupby('Year').count()[['Company']]
     #st.markdown("""With the increasing pace of technological advancement, Apple seems to have increased the number of companies it acquires every year. The difference in approach is more evident when you break down Apple's history into two eras. Tim Cook and his mastery of a global suuply chains has seen the need to acquire more start ups along the way in order to remain competitive in a fiercely saturating marketing.""")
 
 st.sidebar.header("Apple Acquisitions through the years")
-st.sidebar.markdown("""A look at Apple Acquisitions through Steve and Tim's tenures""")
+#st.sidebar.markdown("""A look at Apple Acquisitions through Steve and Tim's tenures""")
+st.sidebar.markdown("""A look at Apple Acquisitions through **<span style='color:grey'>Steve</span>** and **<span style='color:steelblue'>Tim</span>**'s tenures""", unsafe_allow_html=True)
 st.sidebar.markdown("""A Small Project by Payam Saeedi""")
 #st.title('Apple\'s Acquisitions through the years')
 #st.dataframe(df)
