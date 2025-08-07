@@ -27,10 +27,8 @@ source = df.groupby('Year').count()[['Company']]
 st.sidebar.header("Apple Acquisitions through the years")
 st.sidebar.markdown("""
 This visualization tracks Apple's corporate acquisitions over time, 
-revealing distinct patterns between the <span style='color: grey; font-weight: bold;'>Steve Jobs era</span> (shown in gray) 
-and the <span style='color: steelblue; font-weight: bold;'>Tim Cook era</span> (shown in blue). The data shows a marked increase 
-in acquisition activity under Cook's leadership, reflecting Apple's 
-evolving strategy in a rapidly changing tech landscape.
+revealing distinct patterns between the <span style='color: grey; font-weight: bold;'>Steve Jobs era</span> 
+and the <span style='color: steelblue; font-weight: bold;'>Tim Cook era</span>.
 """, unsafe_allow_html=True)
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Data Source:**")
