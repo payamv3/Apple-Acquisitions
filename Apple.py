@@ -10,6 +10,28 @@ import csv
 import sys
 import time
 
+st.set_page_config(
+    page_title="Apple Acquisitions Dashboard",
+    layout="wide",  # This sets the wide format
+    initial_sidebar_state="expanded"
+)
+
+# Force light theme through custom CSS
+st.markdown("""
+<style>
+    /* Force light theme */
+    [data-testid="stAppViewContainer"] {
+        background-color: white;
+    }
+    [data-testid="stHeader"] {
+        background-color: white;
+    }
+    [data-testid="stSidebar"] {
+        background-color: #f0f2f6;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 page = requests.get('https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple')
 soup = bs(page.text, 'html.parser')   
 table = soup.find_all('table')
