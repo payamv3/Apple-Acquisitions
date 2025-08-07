@@ -35,7 +35,7 @@ st.sidebar.markdown("""A Small Project by Payam Saeedi""")
 #st.sidebar.header('Select a year in order to see derived products')
 #selected_year= st.sidebar.selectbox('Year', list(reversed(range(1950,2022))))
 
-bars = alt.Chart(source.reset_index()).mark_bar(cornerRadiusTopLeft=3,
+bars = alt.Chart(source.reset_index()).mark_line(cornerRadiusTopLeft=3,
     cornerRadiusTopRight=3, size = 30).encode(
     alt.X('Year:O', axis = alt.Axis(grid = False, labelAngle=0, labelFontSize=12, tickSize=0, labelPadding=10)),
     alt.Y('Company:Q', axis=alt.Axis(title='Number of Acquisitions', labels = False, grid=False)),
