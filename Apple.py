@@ -16,7 +16,7 @@ table = soup.find_all('table')
 df = pd.read_html(str(table))[0]
 df['Year'] = df['Date'].str[-4:]
 df.iloc[11,8] = '2000'
-df['Year'] = df['Year'].astype('int32')
+df['Year'] = df['Year'].astype('int')
 source = df.groupby('Year').count()[['Company']]
 
 #col1, col2 = st.columns(2)
