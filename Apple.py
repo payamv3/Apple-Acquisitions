@@ -45,7 +45,7 @@ bars = alt.Chart(source.reset_index()).mark_bar(cornerRadiusTopLeft=3,
         alt.value('steelblue'),     # which sets the bar orange.
         alt.value('grey')   # And if it's not true it sets the bar steelblue.
     )
-).properties(title = 'Apple Acquisitions Through Time', width = 1000, height = 400)
+).properties(title = 'Apple Acquisitions Through Time', width = 1200, height = 400)
 
 text = bars.mark_text(
     align='center',
