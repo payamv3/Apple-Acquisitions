@@ -32,8 +32,24 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-page = requests.get('https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple')
-soup = bs(page.text, 'html.parser')   
+
+url = "https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/128.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Referer": "https://www.google.com/"
+}
+page = requests.get(url, headers=headers)
+page.raise_for_status()
+
+# --- Parse HTML ---
+soup = bs(page.text, "html.parser")
+
+#page = requests.get('https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple')
+#soup = bs(page.text, 'html.parser')   
 table = soup.find_all('table')
 df = pd.read_html(str(table))[0]
 df['Year'] = df['Date'].str[-4:]
