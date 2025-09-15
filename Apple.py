@@ -9,6 +9,7 @@ import requests
 import csv
 import sys
 import time
+from io import StringIO
 
 st.set_page_config(
     page_title="Apple Acquisitions Dashboard",
@@ -51,7 +52,7 @@ soup = bs(page.text, "html.parser")
 #page = requests.get('https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Apple')
 #soup = bs(page.text, 'html.parser')   
 table = soup.find_all('table')
-df = pd.read_html(str(table))[0]
+df = pd.read_html(StringIO(str(table)))[0]
 df['Year'] = df['Date'].str[-4:]
 df.iloc[11,8] = '2000'
 df['Year'] = df['Year'].astype('int')
