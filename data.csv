@@ -1,0 +1,131 @@
+,Unnamed: 0,Date,Company,Business,Country,Value (USD),References,Derived products,Year
+0,1,"March 2, 1988",Network Innovations,Software,United States,—,[9],Data Access Language (DAL),1988
+1,2,"June 7, 1988",Orion Network Systems,Computer Software,United States,—,[10],SNA*ps,1988
+2,3,"June 27, 1988",Styleware[note 1],Computer software,United States,—,[11],"AppleWorks GS, iWork, iLife",1988
+3,4,"July 11, 1988",Nashoba Systems[note 1],Computer software,United States,—,[12],FileMaker,1988
+4,5,"January 3, 1989",Coral Software,Computer software,United States,—,[13][14],Macintosh Common Lisp,1989
+5,6,"February 7, 1997",NeXT,Unix-like hardware and software platform,United States,404000000,[15],"Mac OS X/macOS, Darwin, iOS, tvOS, watchOS, audioOS, visionOS",1997
+6,7,"September 2, 1997",Power Computing Corporation,Macintosh clones,United States,110000000,[16][17],—,1997
+7,8,"January 8, 1999",Xemplar Education,Software,United Kingdom,4926000,[18],—,1999
+8,9,"November 3, 1999",Raycer Graphics,Computer graphic chips,United States,15000000,[19],—,1999
+9,10,"January 7, 2000",NetSelector,Internet software,United States,—,[20],—,2000
+10,11,"April 11, 2000",Astarte-DVD Authoring Software[note 2],Software,Germany,—,[21],"DVD Studio Pro, iDVD",2000
+11,12,2000 (Q4),SoundJam MP[note 3],Software,United States,—,[22],iTunes,2000
+12,13,Early 2001,Bluefish Labs,Productivity software,United States,—,[23],iWork,2001
+13,14,"May 11, 2001",bluebuzz,Internet service provider (ISP),United States,—,[24],—,2001
+14,15,"July 9, 2001",Spruce Technologies[note 4],Graphics software,United States,14900000,[25][26],DVD Studio Pro,2001
+15,16,"December 31, 2001",PowerSchool,Online info systems services,United States,66100000,[26][27],PowerSchool,2001
+16,17,"February 1, 2002",Nothing Real,Special effects software,United States,15000000,[26][28],Shake,2002
+17,18,"April 4, 2002",Zayante,FireWire chips and software,United States,"13,000,000[note 5]",[29][30][31],FireWire,2002
+18,19,"June 11, 2002",Silicon Grail Corp-Chalice[note 6][note 7],Digital effects software,United States,"20,000,000[note 8]",[30][32],Motion,2002
+19,20,"June 20, 2002",Propel Software,internet and network optimization for wireless carriers,United States,—,[33],Safari,2002
+20,21,"June 21, 2002",Prismo Graphics[note 7],Special-effects titling software for film and video,United States,"20,000,000[note 8]",[30][34],LiveType,2002
+21,22,"July 1, 2002",Emagic,Music production software,Germany,30000000,[26][35],"Logic Pro, GarageBand",2002
+22,23,March 2005,SchemaSoft,Software,Canada,—,[36],iWork,2005
+23,24,April 2005,FingerWorks,Gesture recognition company,United States,—,[37][38],iOS,2005
+24,25,"October 16, 2006",Silicon Color,Software,United States,—,[39],Color,2006
+25,26,"December 4, 2006",Proximity,Software,Australia,—,[40],Final Cut Server,2006
+26,27,"April 24, 2008",P.A. Semi,Semiconductors,United States,278000000,[41][42],Apple SoC,2008
+27,28,"July 7, 2009",Placebase,Maps,United States,—,[43],Apple Maps,2009
+28,29,"December 4, 2009",Lala.com,Music streaming,United States,17000000,[44],"iCloud, iTunes Match",2009
+29,30,"January 5, 2010",Quattro Wireless,Mobile advertising,United States,275000000,[45],iAd,2010
+30,31,"April 27, 2010",Intrinsity,Semiconductors,United States,121000000,[46],Apple SoC,2010
+31,32,"April 27, 2010",Siri,Voice control software,United States,—,[47],Siri,2010
+32,33,"May 10, 2010",Gipsy Moth Studios,Application Regionalization Firm,United States,12000000,[48],"iPod, iPhone, iPad",2010
+33,34,"July 14, 2010",Poly9,Web-based mapping,Canada,—,[49],Apple Maps,2010
+34,35,"September 20, 2010",Polar Rose,Facial recognition,Sweden,29000000,[50],iOS,2010
+35,36,"September 14, 2010",IMSense,High-dynamic-range (HDR) photography,United Kingdom,—,[51],iOS,2010
+36,37,"August 1, 2011",C3 Technologies,3D mapping,Sweden,267000000,[52],Maps,2011
+37,38,"December 20, 2011",Anobit,Flash memory,Israel,500000000,[53],"iPod, iPhone, iPad",2011
+38,39,"February 23, 2012",Chomp,App search engine,United States,50000000,[54],App Store,2012
+39,40,"June 2, 2012",Redmatica,Audio,Italy,—,[55],"Logic Pro, GarageBand",2012
+40,41,"July 27, 2012",AuthenTec,PC and mobile security products,United States,356000000,[56],Touch ID,2012
+41,42,"September 27, 2012",Particle,HTML5 Web app firm,United States,—,[57],"iCloud, iAd",2012
+42,43,2013,Novauris Technologies,Speech recognition,United Kingdom,—,[58][59],Siri,2013
+43,44,2013,OttoCat,Search engine,United States,—,[60],App Store,2013
+44,45,"March 23, 2013",WiFiSlam,Indoor location,United States,20000000,[61],Apple Maps,2013
+45,46,"July 19, 2013",Locationary,Maps,Canada,—,[62],Apple Maps,2013
+46,47,"July 19, 2013",HopStop.com,Maps,United States,—,[63],Apple Maps,2013
+47,48,"August 1, 2013",Passif Semiconductor,Semiconductors,United States,—,[64],Apple SoC,2013
+48,49,"August 13, 2013",Matcha,Media discovery app,United States,—,[65],TV app for Apple TV and iOS,2013
+49,50,"August 22, 2013",Embark,Maps,United States,—,[66],Apple Maps,2013
+50,51,"August 28, 2013",AlgoTrim,Mobile data compression[citation needed],Sweden,—,[67],iOS,2013
+51,52,"October 3, 2013",Cue,Personal assistant,United States,50000000,[68],Siri,2013
+52,53,"November 24, 2013",PrimeSense,Structured-light 3D scanners,Israel,360000000,[69],"Face ID, TrueDepth[70][71]",2013
+53,54,"December 2, 2013",Topsy,Analytics,United States,200000000,[72],"App Store, Apple Music, iTunes Store[73]",2013
+54,55,"December 23, 2013",BroadMap,Maps,United States,—,[74],Apple Maps,2013
+55,56,"December 23, 2013",Catch.com,Software,United States,—,[74],Siri,2013
+56,57,December 2013,Acunu,Database analytics,United States,—,[75],iCloud,2013
+57,58,"January 4, 2014",SnappyLabs,Photography software,United States,—,[76],Camera,2014
+58,59,"February 21, 2014",Burstly,Software testing,United States,—,[77],"TestFlight, App Store",2014
+59,60,"May 2, 2014",LuxVue Technology,microLED displays,United States,—,[78],"MacBook Pro (Apple silicon), iPad Pro (5th generation)",2014
+60,61,"June 6, 2014",Spotsetter,Social search engine,United States,—,[79],Apple Maps,2014
+61,62,"June 29, 2014",Swell,Music streaming,United States,30000000,[80],Apple Music,2014
+62,63,"June 29, 2014",BookLamp,Book analytics,United States,—,[81][82],iBooks,2014
+63,64,"August 1, 2014",Beats Electronics,"Headphones, music streaming (Beats Music)",United States,3000000000,[7],"iPhone, iTunes, Apple Music",2014
+64,65,"September 23, 2014",Prss,Digital magazine,Netherlands,—,[83],Apple News[84],2014
+65,66,2014,Dryft,On-Screen Keyboard,United States,—,[85],iOS Keyboard,2014
+66,67,January 2015,Camel Audio,Audio plug-ins and sound libraries,United Kingdom,—,[86],Logic Pro,2015
+67,68,"January 21, 2015",Semetric,Music analytics,United Kingdom,50000000,[87][88],"Apple Music, iTunes Store",2015
+68,69,"March 24, 2015",FoundationDB,Database,United States,—,[89],iMessage Backend,2015
+69,70,"April 14, 2015",LinX,Camera,Israel,20000000,[90],iPhone Camera,2015
+70,71,April 2015,Coherent Navigation,GPS,United States,—,[91],Apple Maps,2015
+71,72,May 2015,Metaio,Augmented reality,Germany,—,[92],ARKit,2015
+72,73,September 2015,Mapsense,Mapping visualization and data collection,United States,"25,000,000-30,000,000",[93][94],Apple Maps,2015
+73,74,September 2015,VocalIQ,Speech technology,United Kingdom,—,[95],Siri,2015
+74,75,September 2015,Perceptio,"Machine learning, Image recognition",United States,—,[96],"Face ID, Animoji, Photos",2015
+75,76,November 2015,Faceshift,Realtime Motion Capture,Switzerland,—,[97][98],Animoji,2015
+76,77,"January 7, 2016",Emotient,Emotion recognition,United States,—,[99][100][101],"Face ID, Animoji[102]",2016
+77,78,"January 28, 2016",LearnSprout,Education technology,United States,—,[103][104],Classroom iPad App,2016
+78,79,"January 29, 2016",Flyby Media,Augmented reality,United States,—,[105],ARKit,2016
+79,80,"February 3, 2016",LegbaCore,Platform security,United States,—,[106],Exposed firmware exploit in Apple computers.[106],2016
+80,81,"August 5, 2016",Turi,Machine learning,United States,200000000,[107][108][109],"Xcode, Core ML",2016
+81,82,"August 22, 2016",Gliimpse,Personal health info collection company,United States,—,[110][111][112],"HealthKit, CareKit, ResearchKit",2016
+82,83,"September 22, 2016",Tuplejump,Machine learning,India,—,[113][114],"Siri, CoreML",2016
+83,84,"December 1, 2016",Indoor.io,Indoor mapping and navigation,Finland,—,[115],"Maps, Project Titan",2016
+84,85,"March 23, 2017",Workflow,Automation and scripting app,United States,—,[116][117],Shortcuts,2017
+85,86,"May 8, 2017",Beddit,Sleep tracking hardware,Finland,—,[118][119],"iOS, watchOS, Apple Watch",2017
+86,87,"May 13, 2017",Lattice Data,Artificial intelligence,United States,200000000,[120],Photos,2017
+87,88,"June 16, 2017",SensoMotoric Instruments,Eye tracking hardware and software,Germany,—,[121],ARKit,2017
+88,89,"September 22, 2017",Vrvana,Augmented reality head-mounted display,Canada,30000000,[122],ARKit,2017
+89,90,"September 29, 2017",Regaind,Computer vision,France,—,[123],Photos,2017
+90,91,October 2017,init.ai,Messaging assistant,United States,—,[124],Siri,2017
+91,92,October 2017,PowerbyProxi,Wireless charging,New Zealand,—,[125][126],"iPhone, AirPower",2017
+92,93,"November 9, 2017",InVisage Technologies,Quantum dot-based image sensors,United States,—,[127],"iPhone, iPad",2017
+93,94,"December 5, 2017",Pop Up Archive,Tools for searching digital spoken words,United States,—,[128],"iTunes, Apple Music",2017
+94,95,December 2017,Spektral,"Computer vision, real-time editing",Denmark,30000000,[129][130][131],"Photos, iOS",2017
+95,96,2018,Laserlike,Machine learning,United States,—,[132],"Siri, CoreML framework",2018
+96,97,2018,Silk Labs,"Artificial Intelligence, home monitoring",United States,—,[133],—,2018
+97,98,2018,Tueo Health,Asthma monitoring,United States,—,[134][135],—,2018
+98,99,"December 10, 2017",Silicon Valley Data Science,"Data science, data engineering, analytics",United States,—,[136][137],Digital Advertising,2017
+99,100,"January 2, 2018",Buddybuild,"Continuous integration, debugging, and testing for mobile apps.",Canada,—,[138][139],"Xcode, TestFlight",2018
+100,101,"March 12, 2018",Texture,Digital magazine subscription service,United States,—,[140],Apple News+,2018
+101,102,"August 29, 2018",Akonia Holographics,Lenses for augmented reality glasses,United States,—,[141][142],—,2018
+102,103,"September 24, 2018",Shazam,Music and Image recognition,United Kingdom,400000000,[143][144][145],"iTunes, Siri, Apple Music",2018
+103,104,"October 11, 2018",Dialog Semiconductor (portions),Chip development,United Kingdom,600000000,[146][147],Apple silicon,2018
+104,106,"December 7, 2018",Platoon,Artist development,United Kingdom,—,[148][149],—,2018
+105,107,"February 15, 2019",PullString,Speech technology,United States,—,[150],Siri; Company also known as ToyTalk[150],2019
+106,108,"March 21, 2019",Stamplay,Backend workflow development,Italy,5600000,[151],—,2019
+107,109,"June 25, 2019",Drive.ai,Autonomous vehicles,United States,—,[152],—,2019
+108,110,"July 25, 2019",Intel's smartphone modem business,Smartphone modems,United Kingdom,1000000000,[153],Apple SoC,2019
+109,111,"October 3, 2019",IKinema,Motion capture,United Kingdom,—,[154],—,2019
+110,112,"December 12, 2019",Spectral Edge,Low-light photography,United Kingdom,—,[155],iPhone,2019
+111,113,"January 15, 2020",Xnor.ai,"Edge computing, artificial intelligence",United States,200000000,[156],—,2020
+112,114,Early 2020,Scout FM,Podcast A.I.,—,—,[157],"Podcasts, Apple Music, iTunes",2020
+113,115,"March 31, 2020",Dark Sky,Weather forecasting and app,United States,—,[158],"Weather (Apple), WeatherKit framework",2020
+114,116,"April 3, 2020",Voysis,Artificial intelligence/voice assistant,Ireland,—,[159][160],Siri,2020
+115,117,"May 14, 2020",NextVR,Virtual reality events,United States,100000000,[161],Apple Vision Pro,2020
+116,118,"June 24, 2020",Fleetsmith,Mobile device management,United States,—,[162][163][164],Apple Business Essentials,2020
+117,119,"July 31, 2020",Mobeewave,Payments startup,Canada,100000000,[165],iPhone,2020
+118,120,"August 20, 2020",Camerai,AR,Israel,—,[166],Apple Vision Pro,2020
+119,121,"August 25, 2020",Spaces,VR startup,United States,—,[167],Apple Vision Pro,2020
+120,122,"January 15, 2021",Curious AI,Core AI startup,Finland,—,[168],Core ML,2021
+121,123,"August 30, 2021",Primephonic,Classical music streaming service,Netherlands,—,[169],Apple Music Classical,2021
+122,124,"February 7, 2022",AI Music,Music production,United Kingdom,—,[170],Apple Music,2022
+123,125,"March 23, 2022",Credit Kudos inc,Fintech,United Kingdom,150000000,[171],Apple Card,2022
+124,126,"June 5, 2023",Mira Labs,Augmented reality,United States,—,[172],Apple Vision Pro,2023
+125,127,"September 5, 2023",BIS Records,Record label,Sweden,—,[173][174],Apple Music,2023
+126,128,"December 17, 2023",Datakalab,Data compression and image analysis,France,—,[175],,2023
+127,129,"March 14, 2024",DarwinAI,Artificial intelligence,Canada,,[176][177],,2024
+128,130,"November 1, 2024",Pixelmator Team,Digital art and photography software,Lithuania,,[178],,2024
+129,131,"May 27, 2025",RAC7,Video game development,Canada,,[179],Apple Arcade,2025
